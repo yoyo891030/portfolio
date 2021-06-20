@@ -1,0 +1,214 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 19px;
+}
+
+<!-- CSS -->
+.navbar-brand {
+	color: red;
+	font-family: DFKai-SB;
+}
+
+.nav-item {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:100px!important;
+	padding-right:100px!important; 
+}
+}
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background:; 
+}
+
+.about img {
+	box-shadow:3px 3px 5px gray;
+	border-radius:50%;
+	height: 400px;
+	width: 400px;
+}
+
+.abc span{
+	font-size:20px;
+	font-weight: bold;
+}
+
+.abc{
+	padding-top: 30px;
+}
+
+.title {
+	font-size:35px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:grey;
+}
+
+.story {
+	padding: auto 0;
+	font-size: 30px;
+}
+
+.story span {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+}
+
+.portfolio {
+	background-color:white;
+	padding-top:50px;
+	padding-bottom:70px;
+}
+.portfolio .card {
+	background-color: #ffffff;
+	padding: 20px 20px;
+	margin-bottom: 20px;
+	border:1px #E0E0E0 solid;
+	border-radius: 3px;
+}
+
+.portfolio .card {
+	background-color: #ffffff;
+	padding: 46px 20px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.portfolio img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.portfolio img:hover {
+	opacity: 0.8;
+}
+.portfolio_name {
+	padding: 10px;
+}
+
+.a{
+	text-align: left;
+}
+
+
+
+.about-img{
+	width: 100%;
+}
+
+.services{
+	padding:100px 0;
+	background:; 
+}
+
+
+.services li{
+	font-weight: bold;
+}
+
+.skills {
+	padding-bottom: 50px;
+}
+
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:black;
+}
+
+.contact .form {
+	max-width: 1200px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+	border: solid grey 0.5px;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+	border: solid grey 0.5px;
+}
+
+input[type=submit] {
+  background-color: #4F4F4F;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #sandybrown;
+}
+
+footer {
+	background-color: #4F4F4F;
+	padding:20px 0; 
+}
+
+
+footer p {
+	line-height: 39px;
+	text-align: center;
+	color: white;
+}
